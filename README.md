@@ -6,7 +6,7 @@ This application is designed for gym-goers to gain a better understanding of the
 
 **ACCESSING THE CODE**
 To run this code, complete the following steps:
-1. **[click here.](https://drive.mathworks.com/sharing/76f1dbab-16be-47ef-a784-72d71b047028)** You will be redirected to MatLabs with all of the files attached.
+1. **[Click here.](https://drive.mathworks.com/sharing/76f1dbab-16be-47ef-a784-72d71b047028)** You will be redirected to MatLabs with all of the files attached.
 2. At the top of the site, you will see a dropdown that says "Open in MATLAB". Click it, and then click "Open in MATLAB Online".
 3. You will be asked to sign in to your MATLAB account. If you do not have one, you will need to create an account.
 4. On the center-left, you will see a list of files. Double-click on the one named "FitnessTrackerApp.mlapp".
