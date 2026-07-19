@@ -1,8 +1,21 @@
 # Team-10-Fitness-Tracker
-This is team 10's project. Our goal is to provide a comprehensive, easy to read dataset that visualizes all information taken by your wearable sensor while you exercise.
+
+**THE HOOK**
+FitTracker is Team 10's project under the Biomedical Efficiency mini-challenge. The question we aim to answer is whether or not a workout actually moved someone toward their specific fitness goal, despite feeling good about it. FitTracker turns raw wearable sensor data into a clear answer to that question. 
 
 **THE AUDIENCE**
 This application is designed for gym-goers to gain a better understanding of their workouts, and learn how to optimize each session.
+
+**THE ENGINE**
+This app imports wearable_sensor_data.mat, which contains raw accelerometer and heart rate readings collected during gym sessions, along with each person's stats and fitness goal. Before any metric is calculated, the raw signals are cleaned using fillmissing and movmean. From there, the app computes five metrics: calories burned (using the MET formula), time spent in each heart rate zone, a movement-intensity classification, a composite workout intensity score, and a goal-adjusted efficiency score.
+
+**DASHBOARD FEATURES**
+- Session dropdown to switch between recorded workouts
+- Zone dropdown that highlights a specific heart rate zone directly on the graph
+- Heart rate line graph with zone boundary markers
+- Bar chart showing time spent in each heart rate zone
+- Color-coded lamp (green/yellow/red) for an instant read on workout intensity
+- Feedback box with advice personalized to the user's stated fitness goal
 
 **ACCESSING THE CODE**
 To run this code, complete the following steps:
@@ -16,6 +29,11 @@ To run this code, complete the following steps:
 From here, you can select each session with the Session drop-down bar. You'll be provided with information on calories burned, effeciency, and intensity metrics. Additionally, there is a
 Highlight Zone for each significant heartrate range. You will also be presented with a feedback section that will provide advice on how to better optimize your next session.
 
+**THE REALITY CHECK**
+The app assumes sensor data was collected at a consistent 10 Hz sampling rate.
+Heart rate zone thresholds are calculated from each person's estimated_max_hr_bpm, an estimate, not a clinically measured maximum.
+Activity classification is simplified to a movement-intensity level (Low/Moderate/High) rather than identifying the exact activity — a deliberate tradeoff, since accelerometer-only classification of all 7 activity types proved unreliable in testing.
+The app requires a .mat file specifically; it does not read .csv files.
 
 <a href="https://drive.mathworks.com/sharing/76f1dbab-16be-47ef-a784-72d71b047028" target="_blank">
   <img src="https://1000logos.net/wp-content/uploads/2021/04/MATLAB-logo.png" alt="Redirect Button">
