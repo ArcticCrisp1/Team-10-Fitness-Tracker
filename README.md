@@ -11,7 +11,7 @@ To run this code, complete the following steps:
 3. You will be asked to sign in to your MATLAB account. If you do not have one, you will need to create an account.
 4. On the center-left, you will see a list of files. Double-click on the one named "FitnessTrackerApp.mlapp".
 5. You will be redirected to the MATLAB app designer. At the top, you will see a green triangle labeled "Run". Click this.
-6. The FitTracker should now be up and running. Click on the Load Data button, and select wearable_sensor_data.csv
+6. The FitTracker should now be up and running. Click on the Load Data button, and select wearable_sensor_data.mat
 
 From here, you can select each session with the Session drop-down bar. You'll be provided with information on calories burned, effeciency, and intensity metrics. Additionally, there is a
 Highlight Zone for each significant heartrate range. You will also be presented with a feedback section that will provide advice on how to better optimize your next session.
