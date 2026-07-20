@@ -1,4 +1,4 @@
-# Team-10-Fitness-Tracker
+# What is the FitTracker?
 
 **THE HOOK**
 
