@@ -4,13 +4,16 @@
 
 FitTracker is Team 10's project under the Biomedical Efficiency mini-challenge. The question we aim to answer is whether or not a workout actually moved someone toward their specific fitness goal, despite feeling good about it. FitTracker turns raw wearable sensor data into a clear answer to that question. 
 
+
 **THE AUDIENCE**
 
 This application is designed for gym-goers to gain a better understanding of their workouts, and learn how to optimize each session.
 
+
 **THE ENGINE**
 
 This app imports wearable_sensor_data.mat, which contains raw accelerometer and heart rate readings collected during gym sessions, along with each person's stats and fitness goal. Before any metric is calculated, the raw signals are cleaned using fillmissing and movmean. From there, the app computes five metrics: calories burned (using the MET formula), time spent in each heart rate zone, a movement-intensity classification, a composite workout intensity score, and a goal-adjusted efficiency score.
+
 
 **DASHBOARD FEATURES**
 - Session dropdown to switch between workouts
@@ -19,6 +22,7 @@ This app imports wearable_sensor_data.mat, which contains raw accelerometer and 
 - Bar chart showing time spent in each heart rate zone
 - Color-coded lamp (green/yellow/red) to provide a read on workout intensity
 - Feedback box with advice personalized to the user's indicated fitness goal
+- 
 
 **ACCESSING THE CODE**
 
@@ -32,6 +36,7 @@ To run this code, complete the following steps:
 
 From here, you can select each session with the Session drop-down bar. You'll be provided with information on calories burned, effeciency, and intensity metrics. Additionally, there is a
 Highlight Zone for each significant heartrate range. You will also be presented with a feedback section that will provide advice on how to better optimize your next session.
+
 
 **THE REALITY CHECK**
 - The app assumes sensor data was collected at a consistent 10 Hz sampling rate.
