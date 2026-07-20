@@ -22,7 +22,7 @@ This app imports wearable_sensor_data.mat, which contains raw accelerometer and 
 - Bar chart showing time spent in each heart rate zone
 - Color-coded lamp (green/yellow/red) to provide a read on workout intensity
 - Feedback box with advice personalized to the user's indicated fitness goal
-- 
+
 
 **ACCESSING THE CODE**
 
