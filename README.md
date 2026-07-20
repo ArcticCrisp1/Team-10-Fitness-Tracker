@@ -34,7 +34,3 @@ Highlight Zone for each significant heartrate range. You will also be presented 
 - Heart rate zone thresholds are calculated from each person's estimated_max_hr_bpm, which is not a clinically measured maximum.
 - Activity classification is simplified to a movement-intensity level (Low/Moderate/High) rather than stating the exact activity
 - The app requires a .mat file specifically (no .csv files)
-
-<a href="https://drive.mathworks.com/sharing/76f1dbab-16be-47ef-a784-72d71b047028" target="_blank">
-  <img src="https://1000logos.net/wp-content/uploads/2021/04/MATLAB-logo.png" alt="Redirect Button">
-</a>
