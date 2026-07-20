@@ -1,12 +1,15 @@
 # Team-10-Fitness-Tracker
 
 **THE HOOK**
+
 FitTracker is Team 10's project under the Biomedical Efficiency mini-challenge. The question we aim to answer is whether or not a workout actually moved someone toward their specific fitness goal, despite feeling good about it. FitTracker turns raw wearable sensor data into a clear answer to that question. 
 
 **THE AUDIENCE**
+
 This application is designed for gym-goers to gain a better understanding of their workouts, and learn how to optimize each session.
 
 **THE ENGINE**
+
 This app imports wearable_sensor_data.mat, which contains raw accelerometer and heart rate readings collected during gym sessions, along with each person's stats and fitness goal. Before any metric is calculated, the raw signals are cleaned using fillmissing and movmean. From there, the app computes five metrics: calories burned (using the MET formula), time spent in each heart rate zone, a movement-intensity classification, a composite workout intensity score, and a goal-adjusted efficiency score.
 
 **DASHBOARD FEATURES**
@@ -18,6 +21,7 @@ This app imports wearable_sensor_data.mat, which contains raw accelerometer and 
 - Feedback box with advice personalized to the user's indicated fitness goal
 
 **ACCESSING THE CODE**
+
 To run this code, complete the following steps:
 1. **[Click here.](https://drive.mathworks.com/sharing/76f1dbab-16be-47ef-a784-72d71b047028)** You will be redirected to MatLabs with all of the files attached.
 2. At the top of the site, you will see a dropdown that says "Open in MATLAB". Click it, and then click "Open in MATLAB Online".
